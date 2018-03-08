@@ -53,8 +53,18 @@ body{
 }
 .banner{
     background: url("../img/banner-bg.png") no-repeat bottom center;
-    height: 356px;
+    height: 340px;
     position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.banner .img-list{
+    width: 5640px;
+    height: 340px;
+    position: absolute;
+}
+.img-list img{
+    float: left;
 }
 .pointerDiv{
     position: absolute;
