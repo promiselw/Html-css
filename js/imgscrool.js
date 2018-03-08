@@ -65,3 +65,13 @@ function nextPoint() {
   $('.pointerDiv>a').eq(targetIndex).addClass('active');
   index = targetIndex;
 }
+
+$('[name=show_hide]').hover(function() {
+  //console.log($(this).attr('id'));
+  var id = this.id + '_items';
+  //console.log(id)
+  $('#'+id).show();
+},function() {
+  var id = this.id + '_items';
+  $('#'+id).hide();
+})

@@ -51,9 +51,32 @@ body{
     color: #b7b7b7;
     font: 11px tahoma;
 }
+
+#home_items{
+    position: absolute;
+    color: #555050;
+    /* text-align: center; */
+    font-size: 13px;
+    z-index: 2;
+    margin-left: -11px;
+    display: none;
+    border: 1px dotted #d6d6d6;
+    border-top: none;
+    width: 90px;
+}
+#home_items ul li{
+    float: none;
+    border: none;
+}
+
+#home_items ul li a{
+    cursor: pointer;
+    font-size: 10px;
+}
+
 .banner{
     background: url("../img/banner-bg.png") no-repeat bottom center;
-    height: 340px;
+    height: 355px;
     position: relative;
     overflow: hidden;
     border-radius: 7px;
